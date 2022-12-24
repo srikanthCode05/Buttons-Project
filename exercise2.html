@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+        }
+        section{
+            margin-right: 20px;
+        }
+        span{
+            text-decoration: underline;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        button{
+            padding-top: 5px;
+            background-color: green;
+            padding-bottom: 5px;
+            margin-right: 8px;
+            cursor: pointer;
+            color:white;
+        }
+        .stretch-button{
+            
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+        }
+        .stretch-button:hover{
+           padding: 50px 100px;
+        }
+        .shadow-button{
+            padding: 20px 40px;
+            font-size: 30px;
+            border: none;
+            box-shadow: 7px 7px 2px rgb(73, 71, 71);
+        }
+        .shadow-button:active{
+            margin-top:3px ;
+            margin-left:3px;
+            box-shadow:0 0;
+        }
+        .button-one,.button-two,.button-three{
+            border: none;
+            margin-right: 40px;
+        }
+        .button-one:hover,.button-two:hover,.button-three:hover{
+            padding-right: 30px ;
+            padding-left:30px;
+            padding-top:10px ;
+            padding-bottom: 10px;
+            margin-right: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+    <section>
+        <h1>Pagination.</h1>
+        <button>Back</button> 
+        <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+        <button>Next</button>
+    </section>
+    <br>
+    <section>
+        <h1>Button will Stretch when cursor is on button.</h1>
+        <button class="stretch-button">Stretch</button>
+    </section>
+    <section>
+        <h1>3d click.</h1>
+        <button class="shadow-button">Shadow</button>
+    </section>
+    <section > 
+        <h1>Margin and padding together</h1>
+        <button class="button-one">one</button>
+        <button class="button-two">two</button>
+        <button class="button-three">three</button>
+    </section>
+    </div>
+</body>
+</html>
