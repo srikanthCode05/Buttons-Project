@@ -1,0 +1,28 @@
+.apply-button{
+    margin-right: 20px;
+    height: 60px;
+    width: 300px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(10,102,194);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.apply-button:hover{
+    background-color: rgb(8, 80, 153);
+}
+.save-button{
+    height: 59px;
+    width: 120px;
+    font-size: 20px;
+    border-color:rgb(10,102,194);
+    color: rgb(10,102,194);
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.save-button:hover{
+    border-width: 4px;
+}
