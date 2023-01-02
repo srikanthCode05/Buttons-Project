@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+</head>
+<body>
+    <div style="display: inline-block;">
+        <div style="background-color: lightcoral;display: inline-block;">one</div>
+        <div style="background-color: lightblue; display: inline-block;">two</div>
+    </div>
+
+
+
+    <div style="
+    display: grid;
+    grid-template-columns: 100px 100px;
+    ">
+        <div style="background-color: lightcoral;">one</div>
+        <div style="background-color: lightblue;">two</div>
+    </div>
+
+    <div style="
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    ">
+        <div style="background-color: lightcoral;">200px</div>
+        <div style="background-color: lightblue;">200px</div>
+    </div>
+
+
+    <div style="
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    column-gap: 10px;
+    ">
+        <div style="background-color: lightblue;">200px</div>
+        <div style="background-color: lightcoral;">1fr</div>
+        <div style="background-color: lightblue;">200px</div>
+
+
+
+</body>
+</html>
