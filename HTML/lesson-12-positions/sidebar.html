@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <style>
+        .sidebar{
+            background-color: blueviolet;
+            position: fixed;
+            right: 0px;
+            top: 0;
+            bottom: 0px;
+            width: 500px;
+        }
+        body{
+            padding-bottom: 2000px;
+        }
+        .bottom-left{
+            background-color: black;
+            color: white;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        right sidebar
+    </div>
+
+    <div class="bottom-left">
+        bottom-left
+    </div>
+    <div style="background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:0px;
+    left:0px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;">
+        <div style="background-color: white;
+        border-radius: 5px;
+        width: 300px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;">
+            <P style="margin-top: 0px;">Modal Title</P>
+            <p>this is a modal</p>
+            <button>Close</button>
+        </div>
+    </div>
+</body>
+</html>
